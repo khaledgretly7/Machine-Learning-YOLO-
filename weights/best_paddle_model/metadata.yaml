@@ -1,0 +1,25 @@
+description: Ultralytics YOLOv8n_YOLOpp model trained on datasets/coco_cars/Data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2026-01-10T22:18:31.674284'
+version: 8.1.0
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: traffic light
+  7: stop sign
+  8: fire hydrant
+  9: bench
+  10: parking meter
+  11: dog
+  12: cat
